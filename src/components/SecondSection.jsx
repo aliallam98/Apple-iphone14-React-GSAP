@@ -108,7 +108,7 @@ const SecondSection = () => {
           flex flex-col gap-8 justify-center items-center opacity-0 scale-0"
           id="batteryDiv"
         >
-          <div className="relative overflow-hidden">
+          <div className="relative w-fit rounded-3xl overflow-hidden">
             <img
               src="batteryFr.png"
               alt=""

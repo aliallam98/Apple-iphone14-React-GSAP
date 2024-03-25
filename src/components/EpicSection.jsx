@@ -8,19 +8,19 @@ const EpicSection = () => {
         trigger: "#epicSection",
         toggleActions: "restart reverse restart reverse",
         start: "top 10%",
-        end: "+=60%",
+        end: "+=40%",
         markers: true,
         scrub: true,
       },
       opacity: 0.5,
-      scale: 0.5,
+      scale: 0.7,
     });
     gsap.from("#epicImage", {
       scrollTrigger: {
         trigger: "#epicSection",
         toggleActions: "restart reverse restart reverse",
         start: "top 10%",
-        end: "+=60%",
+        end: "+=50%",
         markers: true,
         scrub: true,
       },

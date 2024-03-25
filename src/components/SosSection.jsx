@@ -15,7 +15,7 @@ const SosSection = () => {
       },
       x: 80,
       y: -100,
-      scale: 1.25,
+      scale: 1.15,
       opacity: 0.8,
       skewY: -10,
     });

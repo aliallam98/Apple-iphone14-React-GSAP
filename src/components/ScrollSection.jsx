@@ -169,7 +169,7 @@ const ScrollSection = () => {
   });
 
   return (
-    <section className="relative h-[400vh]">
+    <section className="relative h-[400vh] flex flex-col justify-center items-center">
       <div className=" sticky -top-20  h-screen pt-40" id="headingSection">
         <h1
           id="Wonderfull"
@@ -180,7 +180,7 @@ const ScrollSection = () => {
       </div>
 
       <div
-        className="sticky top-40 flex h-screen  overflow-hidden pt-60 "
+        className="sticky top-40 flex justify-center h-screen overflow-hidden pt-60 "
         id="targetSection"
       >
         <img
