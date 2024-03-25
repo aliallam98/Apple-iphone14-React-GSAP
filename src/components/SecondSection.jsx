@@ -7,7 +7,7 @@ const SecondSection = () => {
     gsap.to(".smallText", {
       scrollTrigger: {
         trigger: "#secondSection",
-        markers: true,
+        // markers: true,
         start: "top 60%",
         end: "+=40%",
         scrub: true,
@@ -21,7 +21,7 @@ const SecondSection = () => {
     gsap.to("#leftImage", {
       scrollTrigger: {
         trigger: "#secondSection",
-        markers: true,
+        // markers: true,
         start: "center 85%",
         end: "+=100%",
         scrub: true,
@@ -31,7 +31,7 @@ const SecondSection = () => {
     gsap.to("#rightImage", {
       scrollTrigger: {
         trigger: "#secondSection",
-        markers: true,
+        // markers: true,
         start: "center 85%",
         end: "+=100%",
         scrub: true,
@@ -45,7 +45,7 @@ const SecondSection = () => {
     gsap.to("#batteryDiv", {
       scrollTrigger: {
         trigger: "#secondSection",
-        markers: true,
+        // markers: true,
         start: "center 85%",
         end: "+=100%",
         scrub: true,
@@ -65,7 +65,7 @@ const SecondSection = () => {
     gsap.to("#chargingBattery", {
       scrollTrigger: {
         trigger: "#secondSection",
-        markers: true,
+        // markers: true,
         start: "center 85%",
         end: "+=100%",
         scrub: true,

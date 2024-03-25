@@ -1,4 +1,5 @@
 import DisplayPartsAndColorsSection from "./components/DisplayPartsAndColorsSection.jsx";
+import EpicSection from "./components/EpicSection.jsx";
 import Footer from "./components/Footer.jsx";
 import IphoneSection from "./components/IphoneSection.jsx";
 import MyNameSection from "./components/MyNameSection.jsx";
@@ -15,6 +16,7 @@ function App() {
       <IphoneSection />
       <SecondSection />
       <SosSection />
+      <EpicSection/>
       <ScrollSection />
       <DisplayPartsAndColorsSection />
       <MyNameSection />

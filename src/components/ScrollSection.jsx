@@ -99,7 +99,7 @@ const ScrollSection = () => {
         start: "top 20%",
         end: "+=250%",
         scrub: true,
-        markers: true,
+        // markers: true,
       },
       // opacity: 0,
       scale: 3,

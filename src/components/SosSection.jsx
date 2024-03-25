@@ -25,7 +25,7 @@ const SosSection = () => {
         toggleActions: "restart reverse restart reverse",
         start: "top 20%",
         end: "+=80%",
-        markers: true,
+        // markers: true,
         scrub: true,
       },
       skewY: 15,
