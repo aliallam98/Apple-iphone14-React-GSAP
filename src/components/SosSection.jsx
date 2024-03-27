@@ -2,9 +2,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const SosSection = () => {
-  const timeline = gsap.timeline();
   useGSAP(() => {
-    timeline.to("#wrapperCircles", {
+    gsap.to("#wrapperCircles", {
       scrollTrigger: {
         trigger: "#sosSection",
         toggleActions: "restart reverse restart reverse",
@@ -19,7 +18,7 @@ const SosSection = () => {
       opacity: 0.8,
       skewY: -10,
     });
-    timeline.to("#sosText", {
+    gsap.to("#sosText", {
       scrollTrigger: {
         trigger: "#sosSection",
         toggleActions: "restart reverse restart reverse",
