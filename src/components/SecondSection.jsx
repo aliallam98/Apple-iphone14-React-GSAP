@@ -165,10 +165,7 @@ const SecondSection = () => {
     });
   });
   return (
-    <section
-      className="relative h-[300vh] bg-slate-200 flex flex-col"
-      id="secondSection"
-    >
+    <section className="relative h-[300vh] flex flex-col" id="secondSection">
       <div className="sticky top-0 flex justify-center pt-20 bg-black/10 overflow-hidden h-screen">
         <div className="relative">
           <p className="text-black absolute right-40 top-40  text-center text-7xl -rotate-12 skew-x-12 -z-10 scale-0 opacity-0 smallText">
@@ -222,7 +219,7 @@ const SecondSection = () => {
               id="chargingBattery"
             />
           </div>
-          <p className="text-textColor text-7xl max-w-[400px]">
+          <p className="text-black text-7xl max-w-[400px]">
             Our longest battery life ever.
           </p>
         </div>
